@@ -1,0 +1,24 @@
+# 🔹 Java / Build
+target/
+build/
+*.class
+*.jar
+*.war
+
+# 🔹 Logs
+*.log
+
+# 🔹 Environment / Secrets (IMPORTANT)
+.env
+.env.*
+
+# 🔹 Database files (if using SQLite or local DB)
+*.db
+*.sqlite
+
+# 🔹 Node (if any backend part exists)
+node_modules/
+dist/
+
+# 🔹 IntelliJ (extra safety)
+.idea/
